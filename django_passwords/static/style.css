@@ -1,0 +1,13 @@
+ul{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+
+ul>li{
+    font-weight: bold;
+}
+
+ul>li:not(:first-child){
+    margin-left:10px;
+}
